@@ -75,3 +75,24 @@ def test_fatias_na_igualdade_perfeita():
 
     assert topo == pytest.approx(0.10)
     assert base == pytest.approx(0.50)
+
+
+def test_modelo_com_riqueza_inicial_zero():
+    modelo = Modelo(n=10, riqueza_inicial=0, semente=42)
+
+    modelo.rodar(100)
+
+    assert modelo.total() == 0
+    assert modelo.tempo == 100
+    assert all(riqueza == 0 for riqueza in modelo.riquezas())
+
+
+def test_gini_com_toda_riqueza_zero():
+    modelo = Modelo(n=10, riqueza_inicial=0, semente=42)
+
+    assert modelo.gini() == 0.0
+
+
+def test_modelo_exige_pelo_menos_dois_agentes():
+    with pytest.raises(ValueError):
+        Modelo(n=1)

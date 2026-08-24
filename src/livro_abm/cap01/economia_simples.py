@@ -14,6 +14,9 @@ class Modelo:
     """Modelo que cria os agentes, controla o tempo e observa o sistema."""
 
     def __init__(self, n=500, riqueza_inicial=100, semente=None):
+        if n < 2:
+            raise ValueError("O modelo requer pelo menos dois agentes.")
+
         self.rng = random.Random(semente)
         self.pessoas = [Pessoa(riqueza_inicial) for _ in range(n)]
         self.tempo = 0

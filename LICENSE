@@ -1,0 +1,184 @@
+# Licensing
+
+Copyright © 2026
+**Gilberto Gil F. G. Passos, Cristiano Fuschilo e Raphael Mauricio**
+
+This repository contains different categories of material.
+Each category is subject to the licensing terms described below.
+
+---
+
+## 1. Source code
+
+Unless otherwise indicated, source code contained in the following directories is licensed under the **MIT License**:
+
+* `src/`
+* `scripts/`
+* `tests/`
+* code examples contained in `notebooks/`
+* other files explicitly identified as source code
+
+### MIT License
+
+Copyright (c) 2026 Gilberto Gil F. G. Passos, Cristiano Fuschilo and Raphael Mauricio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---
+
+## 2. Book manuscript and editorial content
+
+The text of the book ***Modelagem Baseada em Agentes em Python: construindo modelos do zero, sem frameworks***, including drafts, chapters, explanations, exercises, diagrams, original figures and other editorial material, is **not covered by the MIT License**.
+
+Unless explicitly stated otherwise:
+
+> **All rights reserved.**
+
+The material may be viewed and used for personal study and evaluation of the
+book project.
+
+You may not, without prior written permission from the authors:
+
+* republish substantial portions of the manuscript;
+* redistribute the manuscript as another book, course or commercial product;
+* produce or distribute derivative editions;
+* remove authorship attribution;
+* sell or commercially redistribute the editorial material;
+* represent modified material as an official version of the book.
+
+Short quotations for academic, educational, critical or review purposes
+remain subject to applicable copyright law.
+
+---
+
+## 3. Exercises
+
+Exercise descriptions, explanatory text and pedagogical material are part of
+the editorial content of the book and remain protected by copyright.
+
+Source code created independently by readers while solving the exercises
+belongs to its respective author.
+
+Reference implementations provided in this repository are licensed under the
+MIT License unless explicitly stated otherwise.
+
+---
+
+## 4. Figures
+
+Figures generated exclusively from source code in this repository may contain
+two components:
+
+1. the code used to generate them, licensed under the MIT License;
+2. the resulting graphical composition, which may form part of the editorial
+   content of the book.
+
+Unless a figure contains a separate license notice, publication-quality
+figures used in the book remain protected as editorial content.
+
+---
+
+## 5. Data
+
+Datasets contained in `data/` are **not automatically licensed under the MIT
+License**.
+
+Each dataset should include documentation describing, whenever applicable:
+
+* original source;
+* authors or institution;
+* publication;
+* DOI or URL;
+* applicable license;
+* redistribution conditions;
+* transformations performed for this repository.
+
+Third-party datasets remain subject to the rights and licensing terms of their
+original creators.
+
+The presence of a dataset in this repository does not imply ownership of that
+dataset by the authors of the book.
+
+If redistribution is not permitted, the repository may contain only:
+
+* metadata;
+* processing scripts;
+* derived values where legally permissible;
+* instructions for obtaining the original data.
+
+---
+
+## 6. Third-party material
+
+Names, excerpts, datasets, algorithms, figures or other material attributed to
+third parties remain subject to their respective copyright and licensing
+conditions.
+
+Nothing in this repository should be interpreted as relicensing third-party
+material.
+
+---
+
+## 7. Academic use and citation
+
+Academic use of the repository is encouraged.
+
+When using source code, models, experiments or substantial methodological
+material from this project in academic work, please cite the book or the
+repository.
+
+Citation information will be updated when the book receives its definitive
+publication metadata, such as ISBN or DOI.
+
+---
+
+## 8. Contributions
+
+By submitting a contribution to this repository, contributors agree that:
+
+* source-code contributions may be distributed under the MIT License;
+* proposed corrections to editorial material may be incorporated into the
+  book by the authors;
+* contributors retain authorship of independently created material where
+  applicable;
+* contributions must not knowingly include material that the contributor does
+  not have permission to redistribute.
+
+See `CONTRIBUTING.md` for details.
+
+---
+
+## 9. Questions about licensing
+
+If you intend to:
+
+* reproduce substantial portions of the book;
+* use the material commercially;
+* include book content in another publication;
+* translate or adapt the book;
+* redistribute protected figures or exercises;
+
+please contact the authors before doing so.
+
+---
+
+This licensing structure exists because this repository contains both
+**open-source software** and **copyrighted editorial material**.
+
+They should not be treated as the same kind of work.

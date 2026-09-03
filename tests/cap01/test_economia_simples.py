@@ -96,3 +96,12 @@ def test_gini_com_toda_riqueza_zero():
 def test_modelo_exige_pelo_menos_dois_agentes():
     with pytest.raises(ValueError):
         Modelo(n=1)
+
+
+def test_fatias_com_populacao_menor_que_dez():
+    modelo = Modelo(n=5, riqueza_inicial=100, semente=42)
+
+    topo, base = modelo.fatias()
+
+    assert topo == pytest.approx(0.20)
+    assert base == pytest.approx(0.40)

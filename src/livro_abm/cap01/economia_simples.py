@@ -1,5 +1,6 @@
 """Modelo de economia simples apresentado no Capítulo 1."""
 
+import math
 import random
 
 
@@ -57,8 +58,11 @@ class Modelo:
         n = len(ordenadas)
         total = sum(ordenadas) or 1
 
-        topo = sum(ordenadas[-(n // 10) :])
-        base = sum(ordenadas[: n // 2])
+        quantidade_topo = math.ceil(n * 0.10)
+        quantidade_base = n // 2
+
+        topo = sum(ordenadas[-quantidade_topo:])
+        base = sum(ordenadas[:quantidade_base])
 
         return topo / total, base / total
 
